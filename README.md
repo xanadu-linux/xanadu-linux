@@ -10,23 +10,11 @@ Si usted encontró un error mientras utiliza Xanadu GNU/Linux y desea reportarlo
 
 Si su error no ha sido reportado, cree un nuevo issue incluyendo la siguiente información:
 
-- a short, descriptive title;
-- a detailed description of the issue, including any output from the command line;
-- steps for reproducing the issue; and
-- your system information.\*
+- Un titulo describiendo el error
+- Una descripción detallada del error, incluyendo cualquier salida del terminal
+- Los pasos para reproducir el error
+- La información de su sistema
 
-Please place logs either in a code block (press `M` in your browser for a GFM cheat sheet) or a [gist](https://gist.github.com) if they are lengthy. Information on log locations what what do with them, can be found on [wiki](https://github.com/ValveSoftware/SteamOS/wiki/Reviewing-log-information). 
+Por favor sea cortes y amable con los demás participantes, si tiene dudas o quejas por favor lea el [código de conducta] (https://xanadulinux.wordpress.com/codigo-de-conducta/)
 
-Conduct
--------
-
-
-There are basic rules of conduct that should be followed at all times by everyone participating in the discussions.  While this is generally a relaxed environment, please remember the following:
-
-- Do not insult, harass, or demean anyone.
-- Do not intentionally multi-post an issue.
-- Do not use ALL CAPS when creating an issue report.
-- Do not repeatedly update an open issue remarking that the issue persists.
-
-Remember: Just because the issue you reported was reported here does not mean that it is an issue with Steam.  As well, should your issue not be resolved immediately, it does not mean that a resolution is not being researched or tested.  Patience is always appreciated.
-
+Nota: El hecho de que usted haya reportado un error aquí no significa que sea un error de Xanadu GNU/Linux. Adicionalmente, si un error no es resuelto inmediatamente no significa que no se estén realizando labores para resolverlo, agradecemos su paciencia.
