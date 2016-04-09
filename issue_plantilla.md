@@ -1,8 +1,9 @@
-#### Información de su sistema
+#### Información de su sistema:
 
 * Versión de la distribución:
 * ¿Su sistema esta actualizado?: [Si/No]
 * ¿Qué modalidad utilizaba al presentarse el error? [Live/Instalado]
+* En caso de utilizar el modo Live ¿Utilizaba persistencia? [Si/No]
 * ¿Qué entorno gráfico utilizaba? [LxDE/Openbox/LxLauncher]
 * Sugerencia de corrección
 
