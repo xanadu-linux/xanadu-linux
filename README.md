@@ -1,5 +1,4 @@
-# Xanadu-tracker
-================
+# Xanadu GNU/Linux
 
 El propósito de este repositorio es mantener una base de datos de errores reportados por la comunidad.
 
