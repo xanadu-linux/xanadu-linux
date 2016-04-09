@@ -4,6 +4,7 @@
 * ¿Su sistema esta actualizado?: [Si/No]
 * ¿Qué modalidad utilizaba al presentarse el error? [Live/Instalado]
 * ¿Qué entorno gráfico utilizaba? [LxDE/Openbox/LxLauncher]
+* Sugerencia de corrección
 
 #### Por favor describa el error tan detallado como sea posible:
 Describa que estaba haciendo cuando se produjo el error.
@@ -13,3 +14,5 @@ Describa que estaba haciendo cuando se produjo el error.
 1. 
 2. 
 3. 
+
+#### Contenido de los archivos de configuración (de ser necesarios):
