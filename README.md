@@ -21,6 +21,6 @@ Por favor, coloque los registros, ya sea en un bloque de código (presione `M` e
 
 Si lo desea puede utilizar el archivo issue_plantilla.md como modelo para su reporte.
 
-Por favor sea cortes y amable con los demás participantes, si tiene dudas o quejas por favor lea el [código de conducta] (https://xanadulinux.wordpress.com/codigo-de-conducta/)
+Por favor sea cortes y amable con los demás participantes, si tiene dudas o sugerencias por favor lea el [código de conducta] (https://xanadulinux.wordpress.com/codigo-de-conducta/)
 
 Nota: El hecho de que usted haya reportado un error aquí no significa que sea un error de Xanadu GNU/Linux. Adicionalmente, si un error no es resuelto inmediatamente no significa que no se estén realizando labores para resolverlo, agradecemos su paciencia.
