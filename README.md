@@ -17,10 +17,7 @@ Si su error no ha sido reportado, por favor cree un nuevo issue incluyendo la si
 - Sugerencia de corrección
 - Contenido de los archivos de configuración (de ser necesarios)
 
-Por favor, coloque los registros, ya sea en un bloque de código (presione `M` en su navegador para obtener una hoja de comandos GFM) o en un [gist](https://gist.github.com) si el contenido es muy extenso 
-
-
-
+Por favor, coloque los registros, ya sea en un bloque de código (presione `M` en su navegador para obtener una hoja de comandos GFM) o en un [gist](https://gist.github.com) si el contenido es muy extenso.
 
 Si lo desea puede utilizar el archivo issue_plantilla.md como modelo para su reporte.
 
