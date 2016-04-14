@@ -1,0 +1,127 @@
+0.8.0
+
+se crea una carpeta necesaria para usbmux
+se agrega una lista de proxy gratuitos en iceweasel
+se elimina el marcador de Kodi
+se agrega http://onion.city/ a iceweasel
+se agrega obfs4proxy a tor
+se agrega el paquete arptables a red
+se eliminan los repositorios de rivendell y kxstudio porque ya no son necesarios
+se muestra el ssid y la clave del router en el caso de que ya se este ejecutando
+se elimina una redundancia al limpiar iptables al iniciar el router
+se corrige el comportamiento de la ventanas que muestran el mensaje de introduccion de los script
+se sustituye xvncviewver por ssvnc en nav
+se agrega el icono del terminal en la barra
+se elimina la creacion de la carpeta /run/tor en el inicio de tor
+se agrega el archivo xanadu.conf para usarlo con tmpfiles.d
+se cambia el tamaño del journal
+se agrega el numero de version de xanadu a los script
+se eliminan los archivos f*.txt del directorio include.binary/isolinux y se traslada su creacion a su hooks
+se trasladan otros archivos desde include.binary/isolinux a su hooks
+se actualiza el ppa de libreoffice
+ahora durante la optimizacion se elimina el paquete xanadu-installer
+se corrigen varios errores ortograficos en el instalador
+se reorganizan algunas dependencias en los paquetes
+se mejora el script fin para que haga limpeza al cerrar sesion
+ahora polipo y privoxy escriben sus log en el directorio tmp para que no se almacenen en el disco
+se monta el directorio /var/log como tmpfs para evitar escrituras en disco
+se agrega el paquete mdetect a xanadu-drivers
+se cambian algunos parametros de montaje en el fstab
+se agrega particionamiento automatico al instalador
+se hacen pequeños cambios en el menu de arranque y en la ayuda
+se elimina la configuracion de hdparm
+se elimina el repositorio de linux mint
+se crea un script para crear la particion de persistencia de forma automatica
+se elimina el paquete pulseaudio-module-jack en xanadu-multimedia
+se simplifica el script destruir para hacerlo mas efeciente y rapido
+se crea el paquete xanadu-grubdoctor
+se modifican los script para hacerlos mas pequeños
+se agregan los paquetes apparmor-profiles-extra y apparmor-notify a xanadu-utilidades
+se agrega la funcion wipe a thunar
+se agrega el paquete pcmciautils, va-driver-all, hp-ppd a xanadu-drivers
+se agrega el paquete arj a complementos
+se agregan los paquetes console-tools, kbd-compat, upower a basepack
+se agrega gnome-accessibility-themes a xanadu-accessibility
+se coloca http://httpredir.debian.org/debian/ como repositorio principal
+se crea el archivo de configuracion para agregar al usuario por defecto a ciertos grupos
+se agrega el paquete rfkill a red
+ahora el modo a prueba de fallos esta en español
+se corrigen parametros del grub
+se actualiza el repositorio de iceweasel
+se agrega el paquete openbox-menu a xanadu-lxde
+se agrega el paquete rhinote a xanadu-complementos
+se agrega la funcion de crear un archivo para swap en el script mipersistencia
+se agrega la funcion para montar el archivo swap durante el arranque
+se crea un script de arranque y llamarlo desde el rc.local para trasladar allí el contenido de rc.local
+en el script miarranque se llaman los diversos script de forma paralela
+se agrega * soft nofile 2000 y * hard nofile 2000 a limits.conf
+se activa la precarga dns via https en iceweasel
+se agrega proxy checker a los marcadores del navegador
+se agrega "vm.oom_kill_allocating_task=1" al sysctl
+Optimizado automático en el script llamado miarranque
+se elimina el paquete How-can-I-help
+se modifican los siguientes parametros a estos valores: 'pref("privacy.trackingprotection.enabled", true);' y 'pref("geo.enabled", false);'
+se elimina el soporte de zenity de los scripts
+se agrega compatibilidad a webs de i2p para tor
+Ahora durante el arranque (live) se comprueba la cantidad de ram, si esta es menor a 768 MB de ram se iniciara openbox en lugar de LXDE
+ahora el instalador utiliza LVM
+ahora el instalador crea y utiliza una particion /boot automaticamente
+se agrega el paquete sysfsutils
+se trasladaron los parametros desde el script miarranque-mem a sysfsutil
+se elimina el paquete cpufrequtils porque ya no es util
+se pasan variables desde el particionador al instalador
+se coloco LVM como opción en el instalador
+se coloca una advertencia al usar LVM
+se corrige un error en la variable $seguro en post-gui-yad
+se desactivan las swap en disco durante la ejecucion de tor o i2p y se reactivan al finalizar
+se elimina la advertencia que dice que i2p es experimental
+se agrega aspell-es a xandu-office
+se agrega xul-ext-https-everywhere a xanadu-nav
+se agregan los paquetes network-manager-openvpn-gnome, network-manager-vpnc-gnome, network-manager-pptp-gnome, network-manager-iodine-gnome, gufw a red
+se elimina shorewall
+se elimina el repositorio de kodi
+se agregan elementos a la lista de excluidos del instalador para hacer la instalacion mas rapida y limpia
+se modifica iceweasel para hacer peticiones DNS mediante socks
+se activa la aceleracion por hardware en tor
+se modifican los siguientes valores en iceweasel: pref("datareporting.healthreport.service.enabled", false); pref("datareporting.healthreport.uploadEnabled", false); pref("toolkit.telemetry.enabled", false); pref("loop.enabled", false); pref("browser.pocket.enabled", false); pref("browser.search.suggest.enabled", false); pref("media.peerconnection.enabled", false);
+se elimina el repositorio de aptosid
+se elimina enhanceio porque ya no existe en debian sid
+se restaura el repositorio de siduction
+se actualiza el kernel a 4.2.x
+se crea el paquete xanadu-info cuyo contenido es el archivo os-release y la licencia
+se crea el paquete xanadu-desktop-base con las dependencias que seran comunes a todos los escritorios
+se coloca duckduckgo como pagina de inicio de iceweasel
+se agregan los paquetes wifite y mat
+se incorpora el paquete dnscrypt-proxy
+se agregan nuevas configuraciones de privacidad a iceweasel
+se agrega la opcion en syslinux para iniciar el bootloader instalado en el hdd
+se agrega la opcion en syslinux para iniciar desde la primera particion
+ahora se cierra iceweasel antes de iniciar tor
+se agrega soporte para UEFI sin soporte de persistencia y solo para 64 bits en live
+se agrega soporte para reiserfs
+se sustituye el kernel 686-pae por un kernel sin pae
+ahora al instalar en arquitecturas de 64 bits se usa GPT en lugar de MSDOS
+se crea el paquete xanadu-printer para corregir un error en los drivers de impresoras
+se agrega el paquete bleachbit
+se elimina el paquete apparmor-profiles por ser innecesario
+se hace una limpieza antes de iniciar tor
+se elimina el random del wallpaper al cargar openbox
+al ejecutar el particionador se selecciona automaticamente la particion root
+se agrega el paquete pv a xanadu-complementos
+se cambia la clave de root a: udanax
+se colocan las barras de lxde y openbox transparentes
+se elimina el paquete haveged porque no se utiliza
+se elimina la configuracion de teclado del paquete basepack porque interfiere con el proceso de arranque en live (esto desactiva la combinacion de teclas para reiniciar el servidor X)
+se divide el script complementos
+se agrega una GUI para macchanger
+se agrega el paquete systemd-container
+se agregan los paquetes: swapspace, gtkhash, pwgen
+se corrige un error al montar las swap
+se agrega el paquete zenmap (una GUI para nmap)
+se agrega el paquete gtkorphan
+se eliminan los demas buscadores del iceweasel
+se agrega el soporte para reiser4
+se agrega el paquete fsarchiver, yersinia y lxlauncher
+se optimizan los puntos de montaje creados por el instalador
+se agrega lxmusic
+
