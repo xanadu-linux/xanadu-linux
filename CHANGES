@@ -3,6 +3,7 @@
 
 se coloca la opcion de colocar clave al grub al final del instalador
 se agrega la opcion "HiddenServiceStatistics 1" a la configuracion de tor
+se agrega la fuente dejavu
 
 
 ----------------------------
