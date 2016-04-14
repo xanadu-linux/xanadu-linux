@@ -1,18 +1,18 @@
 0.6.0
 
-Se sustituye el kernel original por el kernel liquorix.
-Se sustituye BASH por FISH como shell por defecto.
-Se agrega soporte para XFS y BTRFS además de EXT4 en el instalador.
-Si se instala usando XFS se agregan parámetros dedicados al sysctl.conf.
-Se incorpora apparmor.
-El script “entorno” ahora nos da mas información.
-Los valores “shmmax” y “shmall” se calculan durante el arranque.
-Se agrega “tcp_mtu_probing” al sysctl.conf.
-Se activa el soporte para IPv6.
-La opción “activar seguridad” fue movida desde el script adicionales al script post-instalador y se crea la opción “desactivar seguridad”.
-Se agrega la opción para instalar hplip-gui desde el post-instalador.
-Se agrega la opción para desactivar compton en adicionales.
-Se agrega el paquete florence (teclado en pantalla).
-Se agregan los siguientes paquetes: joystick, x11-touchscreen-calibrator, xinput-calibrator, xserver-xorg-input-elographics, xserver-xorg-input-multitouch.
-Se eliminan los paquetes plymouth, usbview y lxlauncher.
-Se desactiva la búsqueda automática de la partición de persistencia para acelerar el arranque.
+* Se sustituye el kernel original por el kernel liquorix.
+* Se sustituye BASH por FISH como shell por defecto.
+* Se agrega soporte para XFS y BTRFS además de EXT4 en el instalador.
+* Si se instala usando XFS se agregan parámetros dedicados al sysctl.conf.
+* Se incorpora apparmor.
+* El script “entorno” ahora nos da mas información.
+* Los valores “shmmax” y “shmall” se calculan durante el arranque.
+* Se agrega “tcp_mtu_probing” al sysctl.conf.
+* Se activa el soporte para IPv6.
+* La opción “activar seguridad” fue movida desde el script adicionales al script post-instalador y se crea la opción “desactivar seguridad”.
+* Se agrega la opción para instalar hplip-gui desde el post-instalador.
+* Se agrega la opción para desactivar compton en adicionales.
+* Se agrega el paquete florence (teclado en pantalla).
+* Se agregan los siguientes paquetes: joystick, x11-touchscreen-calibrator, xinput-calibrator, xserver-xorg-input-elographics, xserver-xorg-input-multitouch.
+* Se eliminan los paquetes plymouth, usbview y lxlauncher.
+* Se desactiva la búsqueda automática de la partición de persistencia para acelerar el arranque.

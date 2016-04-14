@@ -1,46 +1,46 @@
 0.7.0
 
-Se lanza lxterminal con la combinación SUPER + t.
-Se agrega comprobación en el instalador para eliminar el archivo swap si existe una partición swap.
-Se agrega una comprobación de sistema de archivos al crear fstab durante el instalador y dependiendo del sistema de archivos, se colocan diferentes opciones de montaje.
-Durante el instalador se activa inmediatamente la partición swap recién creada.
-Se coloco una recomendación al final del instalador para ejecutar el post-instalador al reiniciar el sistema.
-Durante la instalación se crea el archivo apt.conf para ejecutar prelink al final de una instalación con apt.
-Se optimiza el método para generar un hostname de manera aleatoria.
-Se crea una función para limpiar el cortafuegos antes y después de ejecutar cualquier cosa relacionada con tor o i2p.
-Se cambia el algoritmo para generar SSID y clave del Router wifi con tor de manera aleatoria.
-Se agregan los paquetes laptop-mode-tools, icedove, camorama, lightdm-gtk-greeter-settings, grub-customizer en los recomendados del post-instalador.
-Se mejora el script actualizar para que actualice los keyring en caso de necesario.
-Se agrega la posibilidad de actualizar las llaves de los ppa en el archivo xanadu-repo durante su actualización.
-Se fusiona el script modo-server y el paquete xanadu-clean.
-Durante la función office del script modo-server ahora se instala wine.
-Se crea un script para hacer cambios entre versiones de Xanadu GNU/Linux llamado intermedios que sera ejecutado por el script actualizar.
-Se corrigen los parámetros a escribir en fstab durante la ejecución del script intermedios.
-Se sustituye liquorix por el kernel por defecto en Debian.
-Se modifica el script actualizar para ejecutar la optimización la primera vez que se ejecute.
-Se mejora el script destruir ahora trabaja de manera diferente desde un live y desde una instalación.
-Se agregan mensajes de introducción en los script adicionales y post-instalador.
-Se apaga algún posible servidor ssh y otros servicios innecesarios al iniciar tor.
-Se coloca un botón para ejecutar el script actualizar en post-instalador.
-Se activa la combinación ctrl + alt + backspace para reiniciar el servidor X.
-Se agregar el repositorio de kodi para facilitar su instalación.
-Se corrige un error en la pagina f5 de ayuda del menú de arranque.
-Se actualiza el keyring de Debian multimedia.
-Se activa de nuevo la búsqueda de la partición de persistencia durante el arranque para facilitar su uso al usuario.
-Se incorporan los siguientes paquetes: transmission, tightvnc viewver, x11vnc, iftop, host, audacity, hostapd, hwdata, hfsplus, grsync, mtp-tools, mtpfs, catfish, pavucontrol, enhanceio, usermode, gucharmap, alsamixergui, apt-transport-tor, mesa-utils.
-Se eliminan los siguientes paquetes: zsync, qjackctl, flash-player, lxmusic.
-Se aumenta el nivel de compresión de la imagen iso para hacerla más pequeña.
-Se corrige un error en el paquete xanadu-repo.
-Se eliminan las dependencias innecesarias de los paquetes.
-Se desactiva ulatency en el paquete xanadu-low.
-Se desactiva zram en el paquete xanadu-low.
-Se coloco debian-archive-keyring como dependencia de xanadu-archive-keyring.
-Se actualiza el keyring de Xanadu GNU/Linux.
-Se agrega una función para buscar archivos con catfish en thunar.
-Se agrega la función para analizar en busca de virus con clamav en thunar.
-Se cambiar el valor de WarnUnsafeSocks a 1 en la configuración de tor.
-Se cambian los colores de las ventanas y la decoración.
-Se cambian los wallpaper de grub e isolinux.
-Se cambia la configuración del screensaver a blank mode, adicionalmente se bloquea la pantalla y se apaga el monitor.
-Se elimina la instalación de mesa-utils durante la ejecución del script revision.
-Se actualiza https-everywhere para iceweasel.
+* Se lanza lxterminal con la combinación SUPER + t.
+* Se agrega comprobación en el instalador para eliminar el archivo swap si existe una partición swap.
+* Se agrega una comprobación de sistema de archivos al crear fstab durante el instalador y dependiendo del sistema de archivos, se colocan diferentes opciones de montaje.
+* Durante el instalador se activa inmediatamente la partición swap recién creada.
+* Se coloco una recomendación al final del instalador para ejecutar el post-instalador al reiniciar el sistema.
+* Durante la instalación se crea el archivo apt.conf para ejecutar prelink al final de una instalación con apt.
+* Se optimiza el método para generar un hostname de manera aleatoria.
+* Se crea una función para limpiar el cortafuegos antes y después de ejecutar cualquier cosa relacionada con tor o i2p.
+* Se cambia el algoritmo para generar SSID y clave del Router wifi con tor de manera aleatoria.
+* Se agregan los paquetes laptop-mode-tools, icedove, camorama, lightdm-gtk-greeter-settings, grub-customizer en los recomendados del post-instalador.
+* Se mejora el script actualizar para que actualice los keyring en caso de necesario.
+* Se agrega la posibilidad de actualizar las llaves de los ppa en el archivo xanadu-repo durante su actualización.
+* Se fusiona el script modo-server y el paquete xanadu-clean.
+* Durante la función office del script modo-server ahora se instala wine.
+* Se crea un script para hacer cambios entre versiones de Xanadu GNU/Linux llamado intermedios que sera ejecutado por el script actualizar.
+* Se corrigen los parámetros a escribir en fstab durante la ejecución del script intermedios.
+* Se sustituye liquorix por el kernel por defecto en Debian.
+* Se modifica el script actualizar para ejecutar la optimización la primera vez que se ejecute.
+* Se mejora el script destruir ahora trabaja de manera diferente desde un live y desde una instalación.
+* Se agregan mensajes de introducción en los script adicionales y post-instalador.
+* Se apaga algún posible servidor ssh y otros servicios innecesarios al iniciar tor.
+* Se coloca un botón para ejecutar el script actualizar en post-instalador.
+* Se activa la combinación ctrl + alt + backspace para reiniciar el servidor X.
+* Se agregar el repositorio de kodi para facilitar su instalación.
+* Se corrige un error en la pagina f5 de ayuda del menú de arranque.
+* Se actualiza el keyring de Debian multimedia.
+* Se activa de nuevo la búsqueda de la partición de persistencia durante el arranque para facilitar su uso al usuario.
+* Se incorporan los siguientes paquetes: transmission, tightvnc viewver, x11vnc, iftop, host, audacity, hostapd, hwdata, hfsplus, grsync, mtp-tools, mtpfs, catfish, pavucontrol, enhanceio, usermode, gucharmap, alsamixergui, apt-transport-tor, mesa-utils.
+* Se eliminan los siguientes paquetes: zsync, qjackctl, flash-player, lxmusic.
+* Se aumenta el nivel de compresión de la imagen iso para hacerla más pequeña.
+* Se corrige un error en el paquete xanadu-repo.
+* Se eliminan las dependencias innecesarias de los paquetes.
+* Se desactiva ulatency en el paquete xanadu-low.
+* Se desactiva zram en el paquete xanadu-low.
+* Se coloco debian-archive-keyring como dependencia de xanadu-archive-keyring.
+* Se actualiza el keyring de Xanadu GNU/Linux.
+* Se agrega una función para buscar archivos con catfish en thunar.
+* Se agrega la función para analizar en busca de virus con clamav en thunar.
+* Se cambiar el valor de WarnUnsafeSocks a 1 en la configuración de tor.
+* Se cambian los colores de las ventanas y la decoración.
+* Se cambian los wallpaper de grub e isolinux.
+* Se cambia la configuración del screensaver a blank mode, adicionalmente se bloquea la pantalla y se apaga el monitor.
+* Se elimina la instalación de mesa-utils durante la ejecución del script revision.
+* Se actualiza https-everywhere para iceweasel.
