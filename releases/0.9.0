@@ -1,64 +1,63 @@
 0.9.0
 
-se corrigen varios errores en el instalador
-se agregan los siguientes paquetes: aoetools vblade lzip lzma lzop hfsutils hfsprogs disktype axel f2fs-tools zfsnap proxychains fontinstaller dconf-editor conky-all lxc galternatives xfce4-notifyd scalpel 0trace amap arp-scan hdparm fonts-hack-ttf
-se eliminan los siguientes paquetes: onioncat fakeroot-ng i2p systemd-docker nfacct fonts-droid
-se sustituye el paquete rkhunter por chkrootkit
-se sustituye el paquete usermode por gnome-system-tools
-se sustituye el paquete traceroute por mtr-tiny
-se sustituye el paquete chntpw por ophcrack
-se sustituye el paquete iftop por iptraf-ng
-se sustituye el paquete pwgen por el script passgen
-se corrigen errores en los script que utilizan yad
-se trasladan algunas funciones desde variables al postinstalador
-se crea un script llamado reparaciones
-al instalar si hay mas de 4 GB de RAM se activan psad y fail2ban
-se coloca un dialogo para preguntar si desea activar fail2ban y psad
-se agrega soporte para f2fs y zfs
-se cambia el nombre de la carpeta .mozilla en lugar de borrarla al ejecutar tor
-se separa el paquete enlightenment y se crea el paquete low que contiene las aplicaciones ultra ligeras
-se activa aide durante la optimizacion del script post-instalador
-se elimina el repositorio de liquorix
-se elimina del script post-installer la opcion de instalar liquorix
-se agrega al script post-installer la opcion de instalar el paquete xanadu-low
-si al ejecutar el script post-installer se detecta poca RAM se recomienda instalar el paquete xanadu-low
-se simplifican las barras de progreso de yad 
-se optimiza el script destruir
-se limpia el script variables
-se actualiza el paquete xanadu-repo para incluir modificaciones a los repos
-se coloca "10-" al principio del nombre para asignar una prioridad de lectura al archivo xanadu-sysctl.conf
-se agregan las siguientes opciones al archivo 10-xanadu-sysctl.conf: "fs.protected_hardlinks = 1" "fs.protected_symlinks = 1" "net.ipv6.conf.all.use_tempaddr = 2" "net.ipv6.conf.default.use_tempaddr = 2" "net.ipv6.route.flush = 1" "net.ipv4.route.flush = 1"
-se modifican parametros en el sysctl.conf
-se mejora la configuracion de polipo
-se configura proxychains para usar con mi configuracion de proxies
-se modifica la configuracion de privoxy para mejorar el anonimato
-se agregan las variables de entorno para los proxy en bash
-se bloquea todo el trafico UDP al utilizar tor
-se mejora el comportamiento de apt
-se actualiza el script miarranque-mem para calcular mas parametros
-se elimina iptables de la lista negra
-los parametros del kernel que es colocan durante el arranque ahora se escriben en /etc/sysctl.d/11-optimizaciones.conf
-se agregan los script fillzero y repdisk
-se agrega el paquete thermald a recomendados del postinstalador
-ahora el instalador se actualiza automaticamente si posee conexion a internet
-se mejora el rendimiento de los script de la distribucion
-ahora en los archivos .lock se escriben los pasos satisfactorios al iniciar o apagar tor o i2p
-se elimina el suid a los binarios su, wall y passwd durante la optimizacion
-se agrega el paquete nvidia-detect a la funcion que instala los drivers nvidia en el post-instalador
-si el instalador detecta un disco SSD activa trim
-si el instalador detecta que "/" esta en XFS escribe algunos parametros necesarios en sysctl.conf
-se modifica la configuracion de thunar para agregar fontinstaller
-si el instalador detecta una gpu intel escribe un archivo de configuracion complementario para x11
-se mejora la seguridad de iceweasel
-se termina de desactivar pocket
-se agregan los modulos firewire-core y thunderbolt a blacklist
-de ser necesario durante el arranque se escribe "INTEL_BATCH=1" en el archivo /etc/environment
-de ser necesarios se agregan parametros al grub para discos ssd y chipset i915
-se agregan los siguientes paquetes firmware-myricom, firmware-misc-nonfree, firmware-ti-connectivity, firmware-qlogic
-se agregan nuevas fuentes xfonts-terminus, fonts-roboto, fonts-ubuntu-title
-se actualiza el repo de kali
-se cambia la estructura del paquete xanadu-desktop-base para evitar conflicto con desktop-base
-correcciones en los paquetes
-se agrega el script swapfilescan para crear y activar archivos swap
-se actualiza el script destruir
-
+* se corrigen varios errores en el instalador
+* se agregan los siguientes paquetes: aoetools vblade lzip lzma lzop hfsutils hfsprogs disktype axel f2fs-tools zfsnap proxychains fontinstaller dconf-editor conky-all lxc galternatives xfce4-notifyd scalpel 0trace amap arp-scan hdparm fonts-hack-ttf
+* se eliminan los siguientes paquetes: onioncat fakeroot-ng i2p systemd-docker nfacct fonts-droid
+* se sustituye el paquete rkhunter por chkrootkit
+* se sustituye el paquete usermode por gnome-system-tools
+* se sustituye el paquete traceroute por mtr-tiny
+* se sustituye el paquete chntpw por ophcrack
+* se sustituye el paquete iftop por iptraf-ng
+* se sustituye el paquete pwgen por el script passgen
+* se corrigen errores en los script que utilizan yad
+* se trasladan algunas funciones desde variables al postinstalador
+* se crea un script llamado reparaciones
+* al instalar si hay mas de 4 GB de RAM se activan psad y fail2ban
+* se coloca un dialogo para preguntar si desea activar fail2ban y psad
+* se agrega soporte para f2fs y zfs
+* se cambia el nombre de la carpeta .mozilla en lugar de borrarla al ejecutar tor
+* se separa el paquete enlightenment y se crea el paquete low que contiene las aplicaciones ultra ligeras
+* se activa aide durante la optimizacion del script post-instalador
+* se elimina el repositorio de liquorix
+* se elimina del script post-installer la opcion de instalar liquorix
+* se agrega al script post-installer la opcion de instalar el paquete xanadu-low
+* si al ejecutar el script post-installer se detecta poca RAM se recomienda instalar el paquete xanadu-low
+* se simplifican las barras de progreso de yad 
+* se optimiza el script destruir
+* se limpia el script variables
+* se actualiza el paquete xanadu-repo para incluir modificaciones a los repos
+* se coloca "10-" al principio del nombre para asignar una prioridad de lectura al archivo xanadu-sysctl.conf
+* se agregan las siguientes opciones al archivo 10-xanadu-sysctl.conf: "fs.protected_hardlinks = 1" "fs.protected_symlinks = 1" "net.ipv6.conf.all.use_tempaddr = 2" "net.ipv6.conf.default.use_tempaddr = 2" "net.ipv6.route.flush = 1" "net.ipv4.route.flush = 1"
+* se modifican parametros en el sysctl.conf
+* se mejora la configuracion de polipo
+* se configura proxychains para usar con mi configuracion de proxies
+* se modifica la configuracion de privoxy para mejorar el anonimato
+* se agregan las variables de entorno para los proxy en bash
+* se bloquea todo el trafico UDP al utilizar tor
+* se mejora el comportamiento de apt
+* se actualiza el script miarranque-mem para calcular mas parametros
+* se elimina iptables de la lista negra
+* los parametros del kernel que es colocan durante el arranque ahora se escriben en /etc/sysctl.d/11-optimizaciones.conf
+* se agregan los script fillzero y repdisk
+* se agrega el paquete thermald a recomendados del postinstalador
+* ahora el instalador se actualiza automaticamente si posee conexion a internet
+* se mejora el rendimiento de los script de la distribucion
+* ahora en los archivos .lock se escriben los pasos satisfactorios al iniciar o apagar tor o i2p
+* se elimina el suid a los binarios su, wall y passwd durante la optimizacion
+* se agrega el paquete nvidia-detect a la funcion que instala los drivers nvidia en el post-instalador
+* si el instalador detecta un disco SSD activa trim
+* si el instalador detecta que "/" esta en XFS escribe algunos parametros necesarios en sysctl.conf
+* se modifica la configuracion de thunar para agregar fontinstaller
+* si el instalador detecta una gpu intel escribe un archivo de configuracion complementario para x11
+* se mejora la seguridad de iceweasel
+* se termina de desactivar pocket
+* se agregan los modulos firewire-core y thunderbolt a blacklist
+* de ser necesario durante el arranque se escribe "INTEL_BATCH=1" en el archivo /etc/environment
+* de ser necesarios se agregan parametros al grub para discos ssd y chipset i915
+* se agregan los siguientes paquetes firmware-myricom, firmware-misc-nonfree, firmware-ti-connectivity, firmware-qlogic
+* se agregan nuevas fuentes xfonts-terminus, fonts-roboto, fonts-ubuntu-title
+* se actualiza el repo de kali
+* se cambia la estructura del paquete xanadu-desktop-base para evitar conflicto con desktop-base
+* correcciones en los paquetes
+* se agrega el script swapfilescan para crear y activar archivos swap
+* se actualiza el script destruir
