@@ -16,5 +16,6 @@ Describa que estaba haciendo cuando se produjo el error.
 3. 
 
 #### Sugerencia de corrección:
+Describa el procedimiento a seguir para corregir el error.
 
 #### Contenido de los archivos de configuración (de ser necesarios):
