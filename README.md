@@ -11,8 +11,8 @@ Si usted encontró un error mientras utiliza Xanadu GNU/Linux y desea reportarlo
 Si su error no ha sido reportado, por favor cree un nuevo issue incluyendo la siguiente información:
 
 - Un titulo describiendo el error
+- Información de su sistema
 - Una descripción detallada del error, incluyendo cualquier salida del terminal
-- La información de su sistema
 - Los pasos para reproducir el error
 - Sugerencia de corrección
 - Contenido de los archivos de configuración (de ser necesarios)
