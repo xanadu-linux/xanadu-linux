@@ -1,6 +1,6 @@
 1.0
 
-* se coloca la opcion de colocar clave al grub al final del instalador
+* se coloca la opcion de colocar clave al grub al final del instalador con un timeout
 * se agrega la opcion "HiddenServiceStatistics 1" a la configuracion de tor
 * se agrega la fuente dejavu
 * se elimina la configuracion del locale secundario
