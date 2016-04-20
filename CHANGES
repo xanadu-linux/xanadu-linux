@@ -5,3 +5,4 @@
 * se agrega la fuente dejavu
 * se elimina la configuracion del locale secundario
 * se elimina la configuracion del huso horario por defecto
+* se agregan nuevos parametros a sysctl.conf
