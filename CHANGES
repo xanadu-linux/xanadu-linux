@@ -6,3 +6,4 @@
 * se elimina la configuracion del locale secundario
 * se elimina la configuracion del huso horario por defecto
 * se agregan nuevos parametros a sysctl.conf
+* se corrige un error en la pagina 8 de la ayuda del arranque
