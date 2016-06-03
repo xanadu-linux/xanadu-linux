@@ -8,3 +8,5 @@
 * se agregan nuevos parametros a sysctl.conf
 * se corrige un error en la pagina 8 de la ayuda del arranque
 * se agrega el paquete xul-ext-https-finder
+* se eliminan los marcadores del navegador que ya no funcionan
+* se agregan a los marcadores del navegador algunos buscadores seguros
