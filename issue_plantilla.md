@@ -1,6 +1,7 @@
 #### Información de su sistema:
 
 * Versión de la distribución:
+* Version del Kernel:
 * ¿Su sistema esta actualizado?: [Si/No]
 * ¿Qué modalidad utilizaba al presentarse el error? [Live/Instalado]
 * En caso de utilizar el modo Live ¿Utilizaba persistencia? [Si/No]
