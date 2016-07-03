@@ -11,3 +11,7 @@
 * se eliminan los marcadores del navegador que ya no funcionan
 * se agregan a los marcadores del navegador algunos buscadores seguros
 * se agregan mejoras al script reparaciones
+* se mejora el rendimiento del navegador
+* se termina de desactivar pocket
+* se modifica el script de actualizacion de clamav para crear los archivos necesarios
+* se eliminan algunos reboot innecesarios del script reparaciones
