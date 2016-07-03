@@ -1,0 +1,227 @@
+commit 040ee76aa73b5311642b4da3a656ad7015e262a7 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Jul 3 18:58:43 2016 -0400
+
+    * changelog
+
+commit ed067cea8f86537516d3d2a706e1a32930a8162e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jul 2 21:28:23 2016 -0400
+
+    * changelog
+
+commit 0de381af2af9a4264a9b93b814eb46d30cbce9a7
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jul 2 21:14:56 2016 -0400
+
+    * changelog
+
+commit ba8ba73125ea684226a31c66593db50ed1d389ec
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Jun 28 10:33:28 2016 -0400
+
+    se agrega el kernel
+
+commit 3fabf3b396193227b2f44b9e1d6e3435fb647c6d
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Jun 28 10:31:44 2016 -0400
+
+    se agrega la lista de gestores de ventana
+
+commit 4151c0af702d9b7a73a75ce07d9c3555893126fe
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 19:48:58 2016 -0400
+
+    * se elimina un archivo innecesario
+
+commit c98fe47743f485e6b9ab0cbaeb0d83190bf0dd26
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 19:47:38 2016 -0400
+
+    * changelog
+
+commit 59a2ea124624ec35ad360cd3907045739cc3c94f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Jun 13 19:47:25 2016 -0400
+
+    * changelog
+
+commit 662167775bb2d4e4de02d734059a87510894301b
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Jun 2 21:09:15 2016 -0400
+
+    * changes
+
+commit 4c43e2839142aa722745ebee43f40fa8c5b64910
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Wed Jun 1 19:50:28 2016 -0430
+
+    Update README.md
+
+commit 1597faec8ec9ec2d5bbe64f47abcff643d61d9ea (tag: v0.2)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 23 21:24:26 2016 -0430
+
+    * changelog
+
+commit 04debe4f5f130f084020570036660dc6f0ea4308
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Apr 20 19:32:14 2016 -0430
+
+    * changelog
+
+commit 58770a5d3eecf677d0907b79bca46169c1d4ac5f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Apr 20 18:27:06 2016 -0430
+
+    * changelog
+
+commit 008d6a2cf6a91252d9fdd95875f764f6ae2bd788
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 17 19:30:34 2016 -0430
+
+    * changelog
+
+commit a13df6d4d199a23a9448e89c2bbff0de36cfcf1b
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Apr 17 17:32:12 2016 -0430
+
+    * bugfix
+
+commit b4c3601198b69842c1013a506079b89b8472d807
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 14 18:39:14 2016 -0430
+
+    * cambios menores
+
+commit 00cda594dc88ae9149d14cf555cc7c1103df29a5
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 14 18:35:00 2016 -0430
+
+    * changelog
+
+commit 700a0dceaa029de8f60d8a0c4b06826af67ee1be
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 14 17:14:16 2016 -0430
+
+    * cambios minimos
+
+commit 58b30e603303679acc4035139315a2e772dfb064
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 14 17:04:23 2016 -0430
+
+    * se actualizan los releases
+
+commit 6c094f571aaf378f5c0b8906ac736b214c395a6e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 14 17:02:16 2016 -0430
+
+    * se actualizan los releases
+
+commit aa00eeb3c2c68dd6809b0a93e729076b4d8501fa
+Author: jose perez <sinfallas@gmail.com>
+Date:   Thu Apr 14 16:50:13 2016 -0430
+
+    * se agregan los archivos con los cambios de las releases
+
+commit c8868fcc0438a7faecdb1c6fab1327f7c7084640
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Apr 13 20:19:19 2016 -0430
+
+    * changelog
+
+commit 1cb4a8248e20aa1615e425eace64c05a9f23a9b6
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Apr 13 20:08:23 2016 -0430
+
+    * se agrega la lista de cambios global
+
+commit 511bd4af960eb9b6ef983bf6ea34c5025aa3d0f4 (tag: v0.1)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 10:16:18 2016 -0430
+
+    * actualizacion
+
+commit c8ab0cbc2a14fa26bf06b12329e43db068c211ee
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 09:36:22 2016 -0430
+
+    * actualizacion
+
+commit 2770f4aa67d09aa35f27ab56d4a13f06a14f7179
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 09:33:20 2016 -0430
+
+    * actualizacion
+
+commit 1f7d2a8a9181b7bfdfefc8d4aa929f55cf82207f
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 09:31:51 2016 -0430
+
+    * actualizacion
+
+commit 461fc0df177cb52e458a6df6e96f8b1a5f4c310d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 09:27:09 2016 -0430
+
+    * bugfix
+
+commit a6d162961164868345f39260129a54afec9969ca
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 09:24:39 2016 -0430
+
+    * se actualiza readme
+
+commit f433e2b82c4257972cc4788665b8f182a12118ea
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 09:22:21 2016 -0430
+
+    * se actualiza el readme
+
+commit 5c4049690d579061fba0193c90be7d7622f9f84d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 09:14:35 2016 -0430
+
+    * se mejora la plantilla de reporte
+
+commit b820bc5af5df044ce6a0622b20ec22f2b0ef623e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 00:28:20 2016 -0430
+
+    * actualizacion
+
+commit 7820053c96bca3a207213137e11b395d47aecd4d
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 00:26:17 2016 -0430
+
+    * se actualiza la documentacion
+
+commit 609158a585cc6628a0329356f61144515f9bc33e
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Apr 9 00:18:48 2016 -0430
+
+    * se actualiza el readme.md
+
+commit a5acfd4d6edb56dd5ee5f901e91e9fbf5e9bbb59
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Apr 8 23:54:08 2016 -0430
+
+    * bugfix
+
+commit 29b2fc6769f951c01aeb0ea17b422f4a012264dd
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Apr 8 22:17:56 2016 -0430
+
+    * renombre
+
+commit f547c711a8b903f346705fcbf06a8c84203d1266
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Apr 8 22:17:07 2016 -0430
+
+    * primer commit
+
+commit d2f6d91c16df7cc2625416e7d9e115f39679fe13
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Fri Apr 8 21:28:34 2016 -0430
+
+    Initial commit
