@@ -17,3 +17,4 @@
 * se modifica el script de actualizacion de clamav para crear los archivos necesarios
 * se eliminan algunos reboot innecesarios del script reparaciones
 * se coloca un for en el script mi arranque para leer todos los archivos en /etc/fstab.d
+* se sustituye el paquete disk-manager por gnome-disk-utility
