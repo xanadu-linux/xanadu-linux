@@ -18,3 +18,4 @@
 * se eliminan algunos reboot innecesarios del script reparaciones
 * se coloca un for en el script mi arranque para leer todos los archivos en /etc/fstab.d
 * se sustituye el paquete disk-manager por gnome-disk-utility
+* se crea un script llamado post-apt que se ejecuta en la fase final de apt-get para realizar optimizaciones
