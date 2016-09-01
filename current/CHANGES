@@ -20,3 +20,4 @@
 * se sustituye el paquete disk-manager por gnome-disk-utility
 * se crea un script llamado post-apt que se ejecuta en la fase final de apt-get para realizar optimizaciones
 * se agrega tor-geoipdb
+* se agrega un mensaje de confirmacion en fillzero para evitar ejecuciones accidentales
