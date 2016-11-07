@@ -23,3 +23,8 @@
 * se agrega un mensaje de confirmacion en fillzero para evitar ejecuciones accidentales
 * se sustituye iceweasel por firefox
 * se corrige un problemas de dependencias con el instalador
+* se corrigen algunos metadatos de los paquetes
+* se eliminan archivos duplicados de otros paquetes en el paquete xanadu-cinnamon
+* se colocan los metadatos faltantes en el paquete xanadu-cinnamon
+* se modifica grub-doctor para comprobar si existen todas las herramientas necesarias para su ejecucion
+* se modifica grub-doctor para reemplazar BURG en caso de ser necesario
