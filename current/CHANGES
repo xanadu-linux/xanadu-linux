@@ -28,3 +28,5 @@
 * se modifica grub-doctor para comprobar si existen todas las herramientas necesarias para su ejecucion
 * se modifica grub-doctor para reemplazar BURG en caso de ser necesario
 * se agrega el paquete cowpatty
+* se realizaron cambios en el repositorio de Xanadu GNU/Linux
+* se crean los enlaces simbolicos que faltaban en el keyring
