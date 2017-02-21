@@ -31,3 +31,6 @@
 * se realizaron cambios en el repositorio de Xanadu GNU/Linux
 * se crean los enlaces simbolicos que faltaban en el keyring
 * se agrega virt-manager
+* se agrega lxhotkey-gtk
+* se corrige un error en el campo BUGS del archivo origins de Xanadu
+* se actualiza el keyring
