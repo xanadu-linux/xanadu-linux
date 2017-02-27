@@ -35,3 +35,4 @@
 * se corrige un error en el campo BUGS del archivo origins de Xanadu
 * se actualiza el keyring
 * ahora el script destruir desmonta las particiones swap antes de proceder
+* se agrega el paquete memtester para ejecutar pruebas de memoria dentro del espacio de usuario
