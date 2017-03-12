@@ -36,3 +36,4 @@
 * se actualiza el keyring
 * ahora el script destruir desmonta las particiones swap antes de proceder
 * se agrega el paquete memtester para ejecutar pruebas de memoria dentro del espacio de usuario
+* se corrige el problema de dependencias de https-everywhere y ya pudo ser incluido de nuevo
