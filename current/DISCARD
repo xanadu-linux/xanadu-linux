@@ -1,1 +1,2 @@
-* estudiar la posibilidad de sustituir LXC por Docker
+* sustituir LXC por Docker
+* agregar haveged o rng-tools
