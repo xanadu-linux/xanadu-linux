@@ -16,20 +16,20 @@ Paquetes:
 * se agrega memtester para ejecutar pruebas de memoria dentro del espacio de usuario
 * se sustituye el paquete disk-manager por gnome-disk-utility
 * se eliminan archivos duplicados de otros paquetes en el paquete xanadu-cinnamon
-* se actualiza el keyring
-* se agrega virt-manager
-* se agrega lxhotkey-gtk
-* se agrega el paquete cowpatty
-* se agrega tor-geoipdb
+* se actualiza el keyring para agregar las llaves nuevas
+* se agrega virt-manager para gestionar lxc
+* se agrega lxhotkey-gtk 
+* se agrega el paquete cowpatty para completar las dependencias de yersinia
+* se agrega tor-geoipdb para complementar arm
 * se agrega la fuente dejavu
 
 Navegador:
 
+* se sustituye iceweasel por firefox
 * si se detectan mas de 4 GB de ram durante la instalacion se activa la aceleracion por hardware en Firefox de lo contrario se desactiva
 * se corrige el problema de dependencias de https-everywhere y ya pudo ser incluido de nuevo
-* se sustituye iceweasel por firefox
-* se mejora el rendimiento del navegador
-* se termina de desactivar pocket en firefox
+* se mejora el rendimiento
+* se termina de desactivar pocket
 * se eliminan los marcadores del navegador que ya no funcionan
 * se agregan a los marcadores del navegador algunos buscadores seguros
 
