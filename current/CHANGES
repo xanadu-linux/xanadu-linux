@@ -1,40 +1,57 @@
 1.0
 
-* se coloca la opcion de colocar clave al grub al final del instalador con un timeout
+General:
+
 * se agrega la opcion "HiddenServiceStatistics 1" a la configuracion de tor
-* se agrega la fuente dejavu
 * se elimina la configuracion del locale secundario
 * se elimina la configuracion del huso horario por defecto
 * se agregan nuevos parametros a sysctl.conf
 * se corrige un error en la pagina 8 de la ayuda del arranque
-* se eliminan los marcadores del navegador que ya no funcionan
-* se agregan a los marcadores del navegador algunos buscadores seguros
-* se agregan mejoras al script reparaciones
-* se agregan mejoras al script repdisk
-* se mejora el rendimiento del navegador
-* se termina de desactivar pocket en firefox
-* se modifica el script de actualizacion de clamav para crear los archivos necesarios
-* se eliminan algunos reboot innecesarios del script reparaciones
-* se coloca un for en el script mi arranque para leer todos los archivos en /etc/fstab.d
-* se sustituye el paquete disk-manager por gnome-disk-utility
-* se crea un script llamado post-apt que se ejecuta en la fase final de apt-get para realizar optimizaciones
-* se agrega tor-geoipdb
-* se agrega un mensaje de confirmacion en fillzero para evitar ejecuciones accidentales
-* se sustituye iceweasel por firefox
-* se corrige un problemas de dependencias con el instalador
-* se corrigen algunos metadatos de los paquetes
-* se eliminan archivos duplicados de otros paquetes en el paquete xanadu-cinnamon
-* se colocan los metadatos faltantes en el paquete xanadu-cinnamon
 * se modifica grub-doctor para comprobar si existen todas las herramientas necesarias para su ejecucion
 * se modifica grub-doctor para reemplazar BURG en caso de ser necesario
-* se agrega el paquete cowpatty
 * se realizaron cambios en el repositorio de Xanadu GNU/Linux
-* se crean los enlaces simbolicos que faltaban en el keyring
+
+Paquetes:
+
+* se agrega memtester para ejecutar pruebas de memoria dentro del espacio de usuario
+* se sustituye el paquete disk-manager por gnome-disk-utility
+* se eliminan archivos duplicados de otros paquetes en el paquete xanadu-cinnamon
+* se actualiza el keyring
 * se agrega virt-manager
 * se agrega lxhotkey-gtk
-* se corrige un error en el campo BUGS del archivo origins de Xanadu
-* se actualiza el keyring
-* ahora el script destruir desmonta las particiones swap antes de proceder
-* se agrega el paquete memtester para ejecutar pruebas de memoria dentro del espacio de usuario
-* se corrige el problema de dependencias de https-everywhere y ya pudo ser incluido de nuevo
+* se agrega el paquete cowpatty
+* se agrega tor-geoipdb
+* se agrega la fuente dejavu
+
+Navegador:
+
 * si se detectan mas de 4 GB de ram durante la instalacion se activa la aceleracion por hardware en Firefox de lo contrario se desactiva
+* se corrige el problema de dependencias de https-everywhere y ya pudo ser incluido de nuevo
+* se sustituye iceweasel por firefox
+* se mejora el rendimiento del navegador
+* se termina de desactivar pocket en firefox
+* se eliminan los marcadores del navegador que ya no funcionan
+* se agregan a los marcadores del navegador algunos buscadores seguros
+
+Instalador:
+
+* se corrige un problemas de dependencias
+* se coloca la opcion de colocar clave al grub con un timeout
+
+Scripts:
+
+* se agregan mejoras a reparaciones
+* se eliminan algunos reboot innecesarios en reparaciones
+* se agregan mejoras a repdisk
+* se modifica el script de actualizacion de clamav para crear los archivos necesarios
+* se coloca un for en miarranque para leer todos los archivos en /etc/fstab.d
+* se crea un script llamado post-apt que se ejecuta en la fase final de apt-get para realizar optimizaciones
+* se agrega un mensaje de confirmacion en fillzero para evitar ejecuciones accidentales
+* ahora destruir desmonta las particiones swap antes de proceder
+
+Errores:
+
+* se crean los enlaces simbolicos que faltaban en el keyring
+* se corrige un error en el campo BUGS del archivo origins de Xanadu
+* se colocan los metadatos faltantes en el paquete xanadu-cinnamon
+* se corrigen algunos metadatos de los paquetes
