@@ -2,7 +2,6 @@
 
 General:
 
-* se agrega la opcion "HiddenServiceStatistics 1" a la configuracion de tor
 * se elimina la configuracion del locale secundario
 * se elimina la configuracion del huso horario por defecto
 * se agregan nuevos parametros a sysctl.conf
@@ -48,6 +47,14 @@ Scripts:
 * se crea un script llamado post-apt que se ejecuta en la fase final de apt-get para realizar optimizaciones
 * se agrega un mensaje de confirmacion en fillzero para evitar ejecuciones accidentales
 * ahora destruir desmonta las particiones swap antes de proceder
+* se utiliza bleachbit para realizar limpieza durante la funcion limpiar_1
+
+Tor:
+
+* se desactiva el soporte de IPv6 al utilizar tor
+* se agrega la opcion "HiddenServiceStatistics 1" a la configuracion de tor
+* se redirige el trafico hacia tor utilizando iptables
+* se matan aplicaciones que puedan comprometer el anonimato antes de iniciar tor
 
 Errores:
 
