@@ -1,3 +1,4 @@
 * sustituir LXC por Docker
 * agregar haveged o rng-tools para mejorar la entropia
 * agregar funcion de muestra de audio en thunar
+* agregar sshfs
