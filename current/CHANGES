@@ -48,6 +48,7 @@ Scripts:
 * se agrega un mensaje de confirmacion en fillzero para evitar ejecuciones accidentales
 * ahora destruir desmonta las particiones swap antes de proceder
 * se utiliza bleachbit para realizar limpieza durante la funcion limpiar_1
+* se agregan modos de borrado a fillzero
 
 Tor:
 
