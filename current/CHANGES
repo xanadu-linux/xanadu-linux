@@ -38,6 +38,7 @@ Instalador:
 * se coloca la opcion de colocar clave al grub con un timeout
 * se eliminan rutas absolutas por variables
 * se elimina codigo duplicado
+* el cargador del instalador compara el codigo descargado con su firma md5 antes de ejecutarlo
 
 Scripts:
 
