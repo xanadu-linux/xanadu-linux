@@ -39,6 +39,7 @@ Instalador:
 * se eliminan rutas absolutas por variables
 * se elimina codigo duplicado
 * el cargador del instalador compara el codigo descargado con su firma md5 antes de ejecutarlo
+* se activa discard bajo LVM solo si el disco es SSD
 
 Scripts:
 
