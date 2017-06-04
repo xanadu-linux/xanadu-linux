@@ -59,6 +59,9 @@ Scripts:
 * se mejora la funcion limpiar en variables
 * el script fin que se llama al cerrar sesion ahora llama a la funcion limpiar en variables en lugar de tener codigo duplicado
 * se agrega otra opcion para detectar burg en xanadu-grubdoctor
+* se agrega un nuevo modo llamado rapido al script destruir
+* se traduce el script destruir al español
+* se optimizan los diferentes modos del script destruir
 
 Tor:
 
