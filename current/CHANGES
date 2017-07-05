@@ -9,6 +9,7 @@ General:
 * se modifica grub-doctor para comprobar si existen todas las herramientas necesarias para su ejecucion
 * se modifica grub-doctor para reemplazar BURG en caso de ser necesario
 * se realizaron cambios en el repositorio de Xanadu GNU/Linux
+* se eliminan valores innecesarios en sysctl.conf
 
 Paquetes:
 
