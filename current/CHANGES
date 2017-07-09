@@ -25,6 +25,7 @@ Paquetes:
 * se crea el metapaquete xanadu-xorg para facilitar la futura migracion a wayland
 * se elimina el repositorio de libreoffice por ser obsoleto
 * se agregan las siguientes dependencias al paquete xanadu-xorg: xserver-xorg-legacy, xserver-xorg-input-joystick, xserver-xorg-input-mtrack, xserver-xorg-video-modesetting, joystick
+* se agrega la herramienta myrf para facilitar el uso del comando rfkill
 
 Navegador:
 
