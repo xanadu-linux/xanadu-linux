@@ -29,6 +29,7 @@ Paquetes:
 * se agrega la herramienta de terminal securegen para facilitar el uso del comando gpg
 * se agrega la herramienta de terminal kzombie para matar procesos zombie
 * se sustituye fdpowermon por eel paquete xfce4-power-manager
+* se agrega el paquete knot-dnsutils
 
 Navegador:
 
