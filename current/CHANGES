@@ -31,6 +31,7 @@ Paquetes:
 * se sustituye fdpowermon por eel paquete xfce4-power-manager
 * se agrega el paquete knot-dnsutils
 * se agrega el paquete iproute2
+* se agrega el paquete exfat-utils para dar soporte al sistema de archivos exFAT
 
 Navegador:
 
