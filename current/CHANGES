@@ -72,6 +72,8 @@ Scripts:
 * se agrega un nuevo modo llamado rapido al script destruir
 * se traduce el script destruir al español
 * se optimizan los diferentes modos del script destruir
+* el script modo-server se simplifica para facilitar su mantenimiento
+* el script actualizar se modifica para hacer una limpieza despues de actualizar
 
 Tor:
 
