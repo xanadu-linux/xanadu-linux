@@ -11,6 +11,7 @@ General:
 * se realizaron cambios en el repositorio de Xanadu GNU/Linux
 * se eliminan valores innecesarios en sysctl.conf
 * se optimiza la configuracion de ssh para acelerar la conexion
+* se cambian parametros en tmpfiles.d
 
 Paquetes:
 
