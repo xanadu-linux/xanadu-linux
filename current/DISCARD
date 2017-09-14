@@ -3,4 +3,4 @@
 * agregar funcion de muestra de audio en thunar
 * agregar sshfs
 * cambiar la direccion MAC en cada arranque
-* el instalador pregunte si desea invocar post-gui antes de finalizar
+* que el instalador pregunte si desea invocar post-gui antes de finalizar
