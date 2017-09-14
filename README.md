@@ -19,7 +19,7 @@ Si su error no ha sido reportado, por favor cree un nuevo issue incluyendo la si
 
 Por favor, coloque los registros, ya sea en un bloque de código (presione `M` en su navegador para obtener una hoja de comandos GFM) o en un [gist](https://gist.github.com) si el contenido es muy extenso.
 
-Si lo desea puede utilizar el archivo [issue_plantilla.md] (https://github.com/xanadu-linux/xanadu-linux/blob/master/issue_plantilla.md) como modelo para su reporte.
+Si lo desea puede utilizar el archivo [issue_plantilla.md](https://github.com/xanadu-linux/xanadu-linux/blob/master/issue_plantilla.md) como modelo para su reporte.
 
 Sea cortes y amable con los demás participantes, si tiene dudas por favor lea el [código de conducta] (https://xanadulinux.wordpress.com/codigo-de-conducta/)
 
