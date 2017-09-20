@@ -36,6 +36,8 @@ Paquetes:
 * se agrega el paquete iproute2
 * se agrega el paquete exfat-utils para dar soporte al sistema de archivos exFAT
 * se elimina el paquete polipo
+* se separa systemd de la base del sistema
+* se separa syslinux de la base del sistema
 
 Navegador:
 
