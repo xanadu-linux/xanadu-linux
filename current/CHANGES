@@ -40,6 +40,7 @@ Paquetes:
 * se separa syslinux de la base del sistema
 * se sustituye unrar por unrar-free
 * se agrega el paquete unar
+* se trasladan las dependencias nonfree del paquete drivers a su propio meta-paquete
 
 Navegador:
 
