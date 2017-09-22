@@ -31,7 +31,7 @@ Paquetes:
 * se agrega la herramienta de terminal myrf para facilitar el uso del comando rfkill
 * se agrega la herramienta de terminal securegen para facilitar el uso del comando gpg
 * se agrega la herramienta de terminal kzombie para matar procesos zombie
-* se sustituye fdpowermon por eel paquete xfce4-power-manager
+* se sustituye fdpowermon por xfce4-power-manager
 * se agrega el paquete knot-dnsutils
 * se agrega el paquete iproute2
 * se agrega el paquete exfat-utils para dar soporte al sistema de archivos exFAT
