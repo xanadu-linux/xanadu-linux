@@ -38,6 +38,8 @@ Paquetes:
 * se elimina el paquete polipo
 * se separa systemd de la base del sistema
 * se separa syslinux de la base del sistema
+* se sustituye unrar por unrar-free
+* se agrega el paquete unar
 
 Navegador:
 
