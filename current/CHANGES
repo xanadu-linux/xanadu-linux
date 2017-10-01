@@ -82,6 +82,7 @@ Scripts:
 * el script modo-server se simplifica para facilitar su mantenimiento
 * el script actualizar se modifica para hacer una limpieza despues de actualizar
 * se mejora la interfaz de los script seguridad-on seguridad-off para hacerla mas amigable
+* se realizan multiples modificaciones a todos los script para cumplir con los requerimientos de la auditoria
 
 Tor:
 
