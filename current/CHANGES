@@ -12,7 +12,7 @@ General:
 * se eliminan valores innecesarios en sysctl.conf
 * se optimiza la configuracion de ssh para acelerar la conexion
 * se cambian parametros en tmpfiles.d
-* se cambian los permisos de /tmp y /var/tmp
+* se cambian los permisos de /tmp y /var/tmp a 1600
 
 Paquetes:
 
@@ -41,6 +41,7 @@ Paquetes:
 * se sustituye unrar por unrar-free
 * se agrega el paquete unar
 * se trasladan las dependencias nonfree del paquete drivers a su propio meta-paquete
+* se creo el paquete xanadu-sysvinit
 
 Navegador:
 
@@ -91,7 +92,7 @@ Tor:
 * se redirige el trafico hacia tor utilizando iptables
 * se matan aplicaciones que puedan comprometer el anonimato antes de iniciar tor
 
-Errores:
+Errores corregidos de versiones anteriores:
 
 * se crean los enlaces simbolicos que faltaban en el keyring
 * se corrige un error en el campo BUGS del archivo origins de Xanadu
