@@ -45,6 +45,7 @@ Paquetes:
 * se creo el metapaquete xanadu-kernel para facilitar la actualizacion del nucleo linux
 * se elimina la dependencia cpio para hacer mas pequeña la iso
 * se traslada cifs-utils al paquete xanadu-fs
+* se actualizan los drivers de impresoras
 
 Navegador:
 
