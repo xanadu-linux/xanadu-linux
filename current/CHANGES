@@ -38,7 +38,7 @@ Paquetes:
 * se elimina el paquete polipo
 * se separa systemd de la base del sistema
 * se separa syslinux de la base del sistema
-* se sustituye unrar por unrar-free
+* se elimina el paquete unrar-free
 * se agrega el paquete unar
 * se trasladan las dependencias nonfree del paquete drivers a su propio meta-paquete
 * se creo el paquete xanadu-sysvinit para intentar proveer compatibilidad
