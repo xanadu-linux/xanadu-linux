@@ -102,3 +102,8 @@ Errores corregidos de versiones anteriores:
 * se corrige un error en el campo BUGS del archivo origins de Xanadu
 * se colocan los metadatos faltantes en el paquete xanadu-cinnamon
 * se corrigen algunos metadatos de los paquetes
+
+Constructor:
+
+* se resalta la pagina de REQUERIMIENTOS MINIMOS Y CLAVES que se agrega al menu de arranque de la imagen iso
+* se traduce la pagina COPYRIGHT al español
