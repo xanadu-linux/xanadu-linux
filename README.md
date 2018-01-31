@@ -1,6 +1,6 @@
 # Xanadu GNU/Linux
 
-El propósito de este repositorio es mantener un espacio para interactuar con nuestra comunidad, ya sea mediante reportes de error o colaborando con la documentación en la [wiki](https://github.com/xanadu-linux/xanadu-linux/wiki)
+El propósito de este repositorio es mantener un espacio para interactuar con nuestra comunidad, ya sea mediante reportes de error o colaborando con nuestros repositorios.
 
 
 Reportando un error
