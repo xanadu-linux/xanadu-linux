@@ -13,6 +13,7 @@ General:
 * se optimiza la configuracion de ssh para acelerar la conexion
 * se cambian parametros en tmpfiles.d
 * se cambian los permisos de /tmp y /var/tmp a 1600
+* se corrige la direccion del balanceador de carga del repositorio de Debian
 
 Paquetes:
 
